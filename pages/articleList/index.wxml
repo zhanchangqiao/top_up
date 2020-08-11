@@ -1,0 +1,14 @@
+<!--pages/articleIndex/index.wxml-->
+<view class="container">
+  <view class="top">
+  <image class="img" src="/static/tabs/gf_01.png"></image>
+  <span class="title">文言文</span>
+  </view>
+  <view class="foot">
+    <view class="footdiv" wx:for="{{articleList}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+    {{item.name}}
+    <van-icon name="balance-o"  custom-class="key" size="60rpx" custom-style="keyw" wx:if="item.state"/>
+    </view>
+  </view> 
+
+</view>

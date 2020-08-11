@@ -1,0 +1,145 @@
+/* pages/components/search.wxss */
+.search.data-v-039252a3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.search .input-wrap.data-v-039252a3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 100rpx;
+  padding: 20rpx 30rpx;
+  background-color: transparent;
+  box-sizing: border-box;
+  position: relative;
+}
+.search .input-wrap.data-v-039252a3::before,
+.search .input-wrap.data-v-039252a3::after {
+  height: 44rpx;
+  line-height: 1;
+  background-image: url(http://static.botue.com/ugo/images/icon_search%402x.png);
+  background-size: 32rpx;
+  background-position: 6rpx center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 28rpx;
+  z-index: 9;
+}
+.search .input-wrap.data-v-039252a3::before {
+  content: '搜索';
+  display: block;
+  width: 100rpx;
+  padding: 11rpx 0 10rpx 44rpx;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 24rpx;
+  left: 325rpx;
+}
+.search .input-wrap.data-v-039252a3::after {
+  display: none;
+  content: '';
+  width: 44rpx;
+  left: 40rpx;
+}
+.search .input-wrap input.data-v-039252a3 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 60rpx;
+  padding: 0 20rpx 0 64rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  color: #666;
+  background-color: #eee;
+}
+.search .input-wrap ._span.cancle.data-v-039252a3 {
+  display: none;
+  width: 80rpx;
+  text-align: right;
+  line-height: 60rpx;
+  font-size: 27rpx;
+  color: #666;
+}
+.search .content.data-v-039252a3 {
+  display: none;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 27rpx;
+  background-color: #fff;
+  position: relative;
+}
+.search .content .title.data-v-039252a3 {
+  font-size: 27rpx;
+  line-height: 1;
+  color: #333;
+}
+.search .content .clear.data-v-039252a3 {
+  display: block;
+  width: 27rpx;
+  height: 27rpx;
+  float: right;
+  background-image: url(http://static.botue.com/ugo/images/clear.png);
+  background-size: cover;
+}
+.search .content .history.data-v-039252a3 {
+  padding-top: 30rpx;
+}
+.search .content .history navigator.data-v-039252a3 {
+  display: inline-block;
+  line-height: 1;
+  padding: 15rpx 20rpx 12rpx;
+  background-color: #ddd;
+  font-size: 24rpx;
+  margin-right: 20rpx;
+  margin-bottom: 15rpx;
+  color: #333;
+}
+.search .content .result.data-v-039252a3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+.search .content .result navigator.data-v-039252a3 {
+  line-height: 1;
+  padding: 20rpx 30rpx;
+  font-size: 24rpx;
+  color: #666;
+  border-bottom: 1px solid #eee;
+}
+.search .content .result navigator.data-v-039252a3:last-child {
+  border-bottom: none;
+}
+.search.focused.data-v-039252a3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+}
+.search.focused .input-wrap.data-v-039252a3 {
+  background-color: #eee;
+}
+.search.focused .input-wrap.data-v-039252a3::before {
+  display: none;
+}
+.search.focused .input-wrap.data-v-039252a3::after {
+  display: block;
+}
+.search.focused ._span.cancle.data-v-039252a3 {
+  display: block;
+}
+.search.focused .content.data-v-039252a3 {
+  display: block;
+}
+

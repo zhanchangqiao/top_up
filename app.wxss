@@ -1,0 +1,5 @@
+/**app.wxss**/
+.container {
+  /* height: 100vh; */
+  background: linear-gradient(to right bottom, #59ffbf, #5ac4e7);
+}

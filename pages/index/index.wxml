@@ -1,0 +1,26 @@
+<view class="container _div data-v-57280228">
+  <van-search
+  value="{{ value }}"
+  shape="round"
+  background="#4fc08d"
+  placeholder="请输入搜索关键词"
+	background="#bdfc36"
+/>
+	<view class="top _div data-v-57280228">
+		<view class="left _div data-v-57280228">
+			<image class="tx data-v-57280228" mode="aspectFit" src="{{userInfo.avatarUrl?userInfo.avatarUrl : 'https://img.yzcdn.cn/vant/cat.jpeg'}}"></image>
+		</view>
+		<view class="right _div data-v-57280228"><label class="_span data-v-57280228">昵称:{{userInfo.nickName}}</label><label class="_span data-v-57280228">浪子id:0000001</label><label class="_span data-v-57280228">外院</label><label class="_span data-v-57280228">等级：1</label></view>
+	</view>
+	<view class="foot _div data-v-57280228">
+		<view class="title _div data-v-57280228">修炼进度</view>
+		<block wx:for="{{listData}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+			<navigator url="/pages/chinese/index" hover-class="navigator-hover" open-type="navigate" class="data-v-57280228">
+				<view class="row _div data-v-57280228">
+					<image src="{{item.url}}" class="data-v-57280228"></image>
+					<progress class="slider data-v-57280228" percent="{{item.progress}}" activeColor="#F6787C" backgroundColor="#eeeeee" active="{{true}}" stroke-width="10" show-info="{{true}}" border-radius="50"></progress>
+				</view>
+			</navigator>
+		</block>
+	</view>
+</view>

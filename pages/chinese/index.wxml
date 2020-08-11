@@ -1,0 +1,33 @@
+<view class="container _div data-v-c7fb34f2">
+	<view class="top _div data-v-c7fb34f2">
+		<image class="tx data-v-c7fb34f2" mode="aspectFit" src="https://img.yzcdn.cn/vant/cat.jpeg"></image><label class="_span data-v-c7fb34f2">语文</label>
+	</view>
+	<van-tabs active="{{ active }}" bind:change="onChange" type="line">
+    <van-tab title="内功">
+    <van-grid column-num="2" border="{{ false }}" gutter="10">
+    <navigator url="/pages/articleList/index" hover-class="navigator-hover" open-type="navigate" wx:for="{{ 5 }}" wx:for-item="index">
+      <van-grid-item use-slot custom-class="van-grid-item_none" content-class="van-grid-item_none">
+        <image
+          src="/static/tabs/gf_01.png"
+          class="bookimg"
+        />
+        <span>文言文</span>
+      </van-grid-item>
+    </navigator>
+    </van-grid>
+    </van-tab>
+    <van-tab title="外功">
+    <van-grid column-num="2" border="{{ false }}" gutter="10">
+    <navigator url="/pages/articleList/index" hover-class="navigator-hover" open-type="navigate" wx:for="{{ 5 }}" wx:for-item="index">
+      <van-grid-item use-slot custom-class="van-grid-item_none" content-class="van-grid-item_none">
+        <image
+          src="/static/tabs/gf_01.png"
+          class="bookimg"
+        />
+        <span>文言文</span>
+      </van-grid-item>
+    </navigator>
+    </van-grid>
+    </van-tab>
+  </van-tabs>
+</view>

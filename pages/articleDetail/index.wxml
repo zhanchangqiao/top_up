@@ -1,0 +1,27 @@
+<!--pages/articleDetail/index.wxml-->
+<view class="container">
+	<view class="top">
+		<image class="img" src="/static/tabs/gf_01.png"></image>
+		<span class="title">文言文</span>
+	</view>
+	<view class="foot">
+		<view>
+			庄子
+		</view>
+		<view>
+			<span>流派：</span><span>道家</span>
+		</view>
+		<view>
+			<span>思想：</span>
+			<view>
+				<span>1.顺应自然</span>
+				<span>1.顺应自然</span>
+				<span>1.顺应自然</span>
+				<span>1.顺应自然</span>
+			</view>
+		</view>
+		<view>
+			<span>流派：</span><span>道家</span>
+		</view>
+	</view>
+</view>

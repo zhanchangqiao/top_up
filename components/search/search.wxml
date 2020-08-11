@@ -1,0 +1,15 @@
+<view class="{{['search _div data-v-039252a3',(focused)?'focused':'']}}">
+	<view class="input-wrap _div data-v-039252a3" bindtap="__e">
+	<input type="text" placeholder="{{placeholder}}" value="{{data}}" bindinput="__e" bindconfirm="__e" class="data-v-039252a3" />
+	<label class="cancle _span data-v-039252a3" catchtap="__e">取消</label></view>
+	<view class="content _div data-v-039252a3">
+		<view class="title _div data-v-039252a3">搜索历史<label class="clear _span data-v-039252a3"></label></view>
+		<view class="history _div data-v-039252a3">
+		</view>
+		<scroll-view class="result data-v-039252a3" scroll-y="{{true}}">
+			<block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+				<navigator url="{{'/pages/goods/index?query='+item.goods_id}}" class="data-v-039252a3">{{item.goods_name}}</navigator>
+			</block>
+		</scroll-view>
+	</view>
+</view>

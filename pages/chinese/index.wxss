@@ -1,0 +1,96 @@
+/* pages/chinese/index.wxss */
+.container.data-v-c7fb34f2 {
+  background-color: #CCE8CF;
+  height: 100%;
+  overflow: hidden;
+}
+.top.data-v-c7fb34f2 {
+  padding: 20rpx 60rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-bottom: 1px solid #777777;
+}
+.top image.data-v-c7fb34f2 {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+}
+.test.data-v-c7fb34f2 {
+  width: 100%;
+}
+.test .testNav.data-v-c7fb34f2 {
+  padding: 0 20rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.test .testNav .testTitle.data-v-c7fb34f2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #ccc;
+}
+.test .testNav .selected.data-v-c7fb34f2 {
+  background-color: #99AA99;
+}
+.test .testcont.data-v-c7fb34f2 {
+  height: 100%;
+  overflow-y: auto;
+}
+.test .testTitle.data-v-c7fb34f2:nth-child(2) {
+  border-left: 1px solid #777777;
+}
+.book.data-v-c7fb34f2 {
+  width: 50%;
+  height: 500rpx;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  box-sizing: border-box;
+  float: left;
+}
+.book .img.data-v-c7fb34f2 {
+  margin: 0px 20rpx;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: columns;
+          flex-direction: columns;
+}
+.book .line.data-v-c7fb34f2 {
+  height: 10rpx;
+  width: 100%;
+  background-color: #f68300;
+}
+.book ._span.data-v-c7fb34f2 {
+  font-size: 20rpx;
+  font-weight: 700;
+  color: #777777;
+}
+.bookimg {
+  /* padding: 20rpx; */
+  width: 80%;
+  height: 200rpx;
+  background: none;
+}
+.van-grid-item_none {
+  /* background: none !important; */
+  background-color: transparent !important;
+}
